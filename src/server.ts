@@ -7,6 +7,8 @@ import { deleteRouter } from "./routes/deleteUser";
 import { blockRouter } from "./routes/block"
 import { unblockRouter } from "./routes/unblock"
 
+const router = express.Router();
+
 const app = express();
 const port = process.env.PORT || 3006;
 
