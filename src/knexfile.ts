@@ -3,11 +3,11 @@ import knex from 'knex';
 const dataBase = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1',
-        port: 5432,
-        user: 'mac',  
-        password: '',
-        database: 'task4-db',
+      host: 'dpg-cjg9gor37aks73ba6ktg-a',
+      port: 5432,
+      database: 'itransition_production_db',
+      user: 'mac',
+      password: 'K9ZZPFLZTomcrtTECV2LD14IEVVOjXuB',
     },
     searchPath: ['knex', 'public'],
 });
