@@ -8,8 +8,7 @@ const dataBase = knex({
       database: 'itransition_production_db',
       user: 'mac',
       password: 'K9ZZPFLZTomcrtTECV2LD14IEVVOjXuB',
-    },
-    searchPath: ['knex', 'public'],
+    }
 });
 
 export default dataBase;
