@@ -27,8 +27,5 @@
     "@types/bcrypt": "^5.0.0",
     "@types/cors": "^2.8.13",
     "@types/jsonwebtoken": "^9.0.2"
-  },
-  "engines": {
-    "node": "18.17.1"
   }
 }
